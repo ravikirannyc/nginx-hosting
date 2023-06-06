@@ -1,3 +1,5 @@
 runtime: custom
 env: flex
 threadsafe: true
+manual_scaling:
+  instances: 1
