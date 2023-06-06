@@ -22,4 +22,4 @@ RUN mkdir -p /usr/share/nginx/www/_ah && \
 # Finally, all static assets.
 ADD dist/ /usr/share/nginx/www/pt-main-fe
 
-CMD ["/bin/sh",  "-c",  "envsubst < /usr/share/nginx/www/sampleapp/assets/envconfig.template.js > /usr/share/nginx/www/pt-main-fe/assets/envconfig.js && exec nginx -g 'daemon off;'"]
+CMD ["/bin/sh",  "-c",  "envsubst < /usr/share/nginx/www/pt-main-fe/assets/envconfig.template.js > /usr/share/nginx/www/pt-main-fe/assets/envconfig.js && exec nginx -g 'daemon off;'"]
