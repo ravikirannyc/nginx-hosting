@@ -1,3 +1,4 @@
+service: artiara-ui-app
 runtime: custom
 env: flex
 threadsafe: true
