@@ -5318,9 +5318,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production) {
       Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
-    } else {
-      Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
-    }
+    } else if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].development) {}
 
     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])["catch"](function (err) {
       return console.error(err);
